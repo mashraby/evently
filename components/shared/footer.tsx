@@ -14,7 +14,12 @@ export const Footer = () => {
           />
         </Link>
 
-        <p>2023 Evently. All Rights reserved.</p>
+        <p>
+          Created by{" "}
+          <Link className="text-blue-500" href={"https://t.me/MashrabYoldashov"} target="_blank">
+            @Mashrab Yo'ldashov
+          </Link>
+        </p>
       </div>
     </footer>
   );
